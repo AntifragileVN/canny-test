@@ -1,7 +1,7 @@
 {
-	"name": "canny-test-task",
+	"name": "canny-test",
 	"version": "0.1.0",
-	"homepage": "https://AntifragileVN.github.io/react-gh-pages",
+	"homepage": "https://AntifragileVN.github.io/canny-test",
 	"private": true,
 	"dependencies": {
 		"@emotion/react": "^11.11.3",
