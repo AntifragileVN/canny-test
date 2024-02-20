@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/canny-test/static/css/main.7d1bc11c.css",
-    "main.js": "/canny-test/static/js/main.f59d9a2a.js",
+    "main.js": "/canny-test/static/js/main.f48233a5.js",
     "index.html": "/canny-test/index.html",
     "main.7d1bc11c.css.map": "/canny-test/static/css/main.7d1bc11c.css.map",
-    "main.f59d9a2a.js.map": "/canny-test/static/js/main.f59d9a2a.js.map"
+    "main.f48233a5.js.map": "/canny-test/static/js/main.f48233a5.js.map"
   },
   "entrypoints": [
     "static/css/main.7d1bc11c.css",
-    "static/js/main.f59d9a2a.js"
+    "static/js/main.f48233a5.js"
   ]
 }
