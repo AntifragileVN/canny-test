@@ -1,16 +1,14 @@
 import styled from '@emotion/styled';
 
 export const MainContainer = styled.div`
-	display: flex;
-	flex: 1;
-	flex-direction: column;
 	line-height: 1;
+	min-width: 800px;
 `;
 
 export const Content = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	max-width: 800px;
+	max-width: 1080px;
 	padding: 32px;
 `;
