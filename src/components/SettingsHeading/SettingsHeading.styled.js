@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const HeadingContainer = styled.div`
 	border-bottom: 1px solid #d9d9d9;
@@ -21,7 +21,7 @@ export const HeadingSubTitle = styled.div`
 	font-size: 14px;
 `;
 
-export const AditionalInfo = styled(Link)`
+export const AditionalInfo = styled(NavLink)`
 	margin-left: 8px;
 	line-height: 22px;
 	font-size: 14px;
