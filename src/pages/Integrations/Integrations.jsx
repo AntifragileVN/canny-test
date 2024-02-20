@@ -1,6 +1,6 @@
 import { ToolsSection } from 'components/ToolsSection/ToolsSection';
 import { SettingsHeading } from 'components/SettingsHeading/SettingsHeading';
-import { SettingsContainer } from 'components/Layout/Layout.styled';
+import { Content } from 'components/Layout/Layout.styled';
 import { ToolList } from 'components/ToolList/ToolList';
 import { IntegrationStatus } from 'components/IntegrationStatus/IntegrationStatus';
 
@@ -103,9 +103,9 @@ export const Integrations = () => {
 			<SettingsHeading
 				title={'Integrations'}
 				subtitle={'Connect Canny to your tools and services'}
-				learnMore={'asdf'}
+				learnMoreLink={'asdf'}
 			/>
-			<SettingsContainer>
+			<Content>
 				<IntegrationStatus />
 				<ToolsSection title="Project management tools">
 					<ToolList integrations={managementTools} />
@@ -113,7 +113,7 @@ export const Integrations = () => {
 				<ToolsSection title="Communication tools">
 					<ToolList integrations={communicationTools} />
 				</ToolsSection>
-			</SettingsContainer>
+			</Content>
 		</>
 	);
 };

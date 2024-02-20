@@ -5,13 +5,15 @@ import {
 	AditionalInfo,
 } from './SettingsHeading.styled';
 
-export const SettingsHeading = ({ title, subtitle, learnMore }) => {
+export const SettingsHeading = ({ title, subtitle, learnMoreLink }) => {
 	return (
 		<HeadingContainer>
 			<HeadingTitle>{title}</HeadingTitle>
 			<HeadingSubTitle>
 				{subtitle}
-				{learnMore && <AditionalInfo to={learnMore}>Learn more</AditionalInfo>}
+				{learnMoreLink && (
+					<AditionalInfo to={learnMoreLink}>Learn more</AditionalInfo>
+				)}
 			</HeadingSubTitle>
 		</HeadingContainer>
 	);

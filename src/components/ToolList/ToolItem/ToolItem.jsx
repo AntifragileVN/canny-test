@@ -11,7 +11,7 @@ import {
 export const ToolItem = ({ title, content, path, imgUrl }) => {
 	return (
 		<ToolItemStyled>
-			<StyledLink to={`/admin/settings/${path}`}>
+			<StyledLink to={`/${path}`}>
 				<ToolLogo src={imgUrl} alt={`${title} logo`} />
 				<ToolInfo>
 					<ToolTitle>{title}</ToolTitle>
